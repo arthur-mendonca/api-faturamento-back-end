@@ -21,13 +21,13 @@ Evidence.associate(connection.models);
 Analysis.associate(connection.models);
 CorrectiveActions.associate(connection.models);
 
-connection
-  .sync()
-  .then(() => {
-    console.log("Tabelas criadas com sucesso!");
-  })
-  .catch((error) => {
-    console.error("Erro ao criar tabelas:", error);
-  });
+// connection
+//   .sync()
+//   .then(() => {
+//     console.log("Tabelas criadas com sucesso!");
+//   })
+//   .catch((error) => {
+//     console.error("Erro ao criar tabelas:", error);
+//   });
 
 module.exports = connection;
